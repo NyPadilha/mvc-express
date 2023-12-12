@@ -1,0 +1,57 @@
+/* color Pallette */
+:root {
+  --black: #010001;
+  --white: #ffffff;
+  --yellow: #FEBD29;
+  --darkGray: #181818;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+ul {
+  border: var(--yellow) solid 1px;
+  border-radius: 5px;
+  padding: 40px
+}
+
+a {
+  color: var(--yellow);
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+}
+
+label, input {
+  padding-top: 7px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--yellow);
+  color: var(--black);
+  font-weight: bold;
+}
+
+input {
+  border-radius: 5px;
+  border: var(--black) solid 1px;
+  padding: 5px;
+}
