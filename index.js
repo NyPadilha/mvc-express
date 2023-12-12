@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.set('view engine', 'ejs');
 
-app.set('views', './views');
+app.set('views', './Views');
 
 app.get('/authors', authorController.listAuthors);
 
